@@ -1,0 +1,159 @@
+.logo {
+    width: 50px;
+    height: auto; /* This will maintain the aspect ratio */
+}
+
+.col-md-6.text-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horror-title {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.main-header {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.action-title {
+    font-size: 50px;
+    justify-content: center;
+}
+
+.romance-title {
+    font-size: 50px;
+}
+
+.comedy-title {
+    font-size: 50px;
+}
+
+.card {
+    transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Move the card up by 10 pixels */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    height: 300px; /* Adjust the height as needed */
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.newsletter {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #error-message {
+    color: red;
+  }
+
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin-right: 20px; /* Adjust spacing between icons */
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: auto;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-right: 30px; /* Adjust spacing between logo and text */
+  }
+  
+  .footer-logo p {
+    margin: 0px;
+    color: #fff; /* Adjust text color */
+  }
+  
+
+.follow-text {
+  margin-right: 5px; /* Adjust spacing between text and icons */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.copyright p {
+    align-items: center;
+}
+  
