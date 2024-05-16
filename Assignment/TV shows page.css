@@ -1,156 +1,285 @@
 .logo {
-    width: 50px;
-    height: auto; /* This will maintain the aspect ratio */
+  width: 50px;
+  height: auto; /* This will maintain the aspect ratio */
 }
 
-.col-md-6.text-center {
-    margin-left: auto;
-    margin-right: auto;
+
+body, html {
+overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-.horror-title {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 50px;
+.featured-content {
+overflow-x: hidden; /* Prevent content overflow */
+width: 100vw; /* Ensure content spans full width of viewport */
+position: relative; /* Ensure relative positioning for absolute positioning inside */
+background-size: contain; /* Ensure the whole image fits without distortion */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
-.main-header {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px; /* Adjust as needed */
+.featured-title {
+width: 100%; /* Ensure the image covers the entire container horizontally */
+max-height: 650px; /* Adjust the maximum height as needed */
+object-fit: cover; /* Ensure the image maintains its aspect ratio and covers the container */
 }
 
-.action-title {
-    font-size: 50px;
+.featured-content {
+position: relative;
 }
 
-.romance-title {
-    font-size: 50px;
+
+.section-header h2 {
+font-size: 35px; /* Increase font size */
+color: #000000; /* Change font color */
 }
 
-.comedy-title {
-    font-size: 50px;
+
+.gallery {
+width: calc(100% - 20px); /* Adjust width to accommodate scrollbar */
+display: flex;
+overflow-x: auto; /* Enable horizontal scrolling */
+padding: 10px;
 }
+
+.gallery div {
+display: inline-block; /* Display the divs in a single line */
+flex: none; /* Remove flex property to prevent wrapping */
+}
+
+.gallery div span {
+display: inline-block; /* Display the spans in a single line */
+margin-right: 20px; /* Adjust spacing between images */
+}
+
+.gallery div span:last-child {
+margin-right: 0; /* Remove right margin for the last image */
+}
+
+.gallery div span:nth-child(4) {
+margin-right: 20px; /* Separate the fourth image from the fifth */
+}
+
+.gallery div img {
+width: auto; /* Allow images to adjust their width */
+height: 400px; /* Adjust height of images */
+margin-bottom: 40px; /* Increase bottom margin */
+}
+
+.gallery div span:nth-child(3) img {
+margin-right: 20px; /* Add margin to separate the third and fourth images */
+}
+
+.movie-title {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+
+.gallery .badge {
+  margin-right: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+/* Zoom effect */
+.gallery img {
+transition: transform 0.3s ease;
+overflow: hidden; /* Prevents scrollbar */
+}
+
+.gallery img:hover {
+transform: scale(1.1);
+}
+
+/* Initially hide vertical scrollbar */
+.gallery:hover {
+overflow-y: hidden;
+}
+
+#Recently-added {
+background-color: #f4f8ff !important;
+padding: 40px; /* Add some padding for better spacing */
+}
+
+
+
+
+.card-body {
+position: absolute;
+top: 0;
+left: 50px; /* Adjusted left margin */
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start; /* Align items to the left */
+color: white;
+}
+
+.card-title {
+font-size: 50px; /* Adjust the font size as needed */
+}
+
+.card-text {
+width: 500px;
+color: lightgray;
+}
+
+.genre-container {
+display: flex;
+margin-bottom: 15px; /* Add margin space between badges and button */
+}
+
+.genre {
+margin-right: 10px;
+}
+
+.equal-height-cards .card {
+display: flex;
+flex-direction: column;
+}
+
+.equal-height-cards .card-img-top {
+flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card {
-    transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Move the card up by 10 pixels */
+  transform: translateY(-10px); /* Move the card up by 10 pixels */
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
 }
 
 .card-body {
-    flex: 1;
+  flex: 1;
 }
 
 .newsletter {
-    text-align: center;
-    margin: 20px auto;
-  }
-  
-  input[type="email"] {
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  #error-message {
-    color: red;
-  }
+  text-align: center;
+  margin: 20px auto;
+}
 
-  footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .social-icons a {
-    margin-right: 20px; /* Adjust spacing between icons */
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .social-icons img {
-    width: 30px;
-    height: auto;
-  }
-  
-  .footer-logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-logo img {
-    max-width: 50px; /* Adjust as needed */
-    height: auto;
-    margin-right: 30px; /* Adjust spacing between logo and text */
-  }
-  
-  .footer-logo p {
-    margin: 0px;
-    color: #fff; /* Adjust text color */
-  }
-  
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#error-message {
+  color: red;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 20px; /* Adjust spacing between icons */
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 50px; /* Adjust as needed */
+  height: auto;
+  margin-right: 30px; /* Adjust spacing between logo and text */
+}
+
+.footer-logo p {
+  margin: 0px;
+  color: #fff; /* Adjust text color */
+}
+
 
 .follow-text {
-  margin-right: 5px; /* Adjust spacing between text and icons */
+margin-right: 5px; /* Adjust spacing between text and icons */
 }
 
 .social-icons {
-  display: flex;
+display: flex;
 }
 
 .copyright p {
-    align-items: center;
+  align-items: center;
 }
-  

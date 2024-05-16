@@ -8,6 +8,9 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="movies pages.css">
+    <!-- Custom JavaScript -->
+    <script src="ScrollBar.js"></script>
+
 </head>
 <body>
     <!-- Navigation bar -->
@@ -32,217 +35,181 @@
         </div>
     </nav>
 
-      <!-- Add the Horror category below the Action section -->
-      <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="centered-title">
-              <h1 class="main-header">Movie Categories</h1>
+      <div class="featured-content">
+          <img class="featured-title" src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\BackGround\wallpaperflare.com_wallpaper (1).jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Evil Dead (2013)</h5>
+            <p class="card-text">Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods.</p>
+            <div class="genre-container">
+              <span class="badge badge-secondary genre">Horror</span> <!-- Badge for Horror-->
+              <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Fantasy -->
           </div>
-            <h2 class="action-title">Action</h2>
-              <div class="row">
-                <!-- Card 1 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\wanted_man_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-                  </div>
-              </div>
-              
-                <!-- Card 2 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\land_of_bad_ver2_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-                  </div>
-              </div>
-                <!-- Card 3 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\lift_ver2_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-                  </div>
-              </div>
-            <!-- Second row for Action cards -->
-            <div class="row">
-                <!-- Card 4 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\damsel_ver3_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-                  </div>
-              </div>
-                <!-- Card 5 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\code_eight_part_ii_ver2_xlg.jpg"class="card-img-top" alt="Action Movie Poster">
-                  </div>
-              </div>
-                <!-- Card 6 -->
-                <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\captain_miller_ver4_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-                  </div>
-                  
-              </div>
+            <a href="https://www.youtube.com/embed/vTGHA33Xyh4?autoplay=1"class="btn btn-primary" target="_blank">Watch It Now!</a>
+        </div>
+      </div>
+  </div>
+  
+  
+
+    <!-- Main Content Section with custom background -->
+    <section id="Recently-added">
+        <div class="container">
+            <!-- Header for Recently Added section -->
+            <header class="section-header">
+                <h2>Recently Added</h2>
+            </header>
+    
+            <!-- Main Content Section with custom background -->
+            <div class="gallery">
+                <div>
+                    <span class="movie-container">
+                        <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\code_eight_part_ii_ver2_xlg.jpg" alt="Code Eight Part II">
+                        <h3 class="movie-title">Code Eight :Part II</h3>
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror--> 
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\damsel_ver3_xlg.jpg" alt="Damsel">
+                        <h3 class="movie-title">Damsel</h3>
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->    
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\fly_me_to_the_moon_ver2_xlg.jpg" alt="Fly Me to the Moon">
+                        <h3 class="movie-title">Fly Me to the Moon</h3>
+                        <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Romance</span> <!-- Badge for Horror--> 
+                    </span>   
                 </div>
-            </div>
+                <div>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\land_of_bad_ver2_xlg.jpg" alt="Land of Bad">
+                        <h3 class="movie-title">Land of Bad</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror--> 
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\lift_ver2_xlg.jpg" alt="Lift">
+                        <h3 class="movie-title">Lift</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror--> 
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Recently Added\wanted_man_xlg.jpg" alt="Wanted Man">
+                        <h3 class="movie-title">Wanted Man</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror--> 
+                    </span>  
+                </div>
+            </div> 
         </div>
-    </div>
-          </div>
-      </div>
-  </div>
+    </section>
+    
+    
 
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <h2 class="comedy-title">Comedy</h2>
-        <div class="row">
-          <!-- Card 1 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\fall_guy_ver3_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-        
-          <!-- Card 2 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\unfrosted_the_poptart_story_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 3 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\ricky_stanicky_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-      <!-- Second row for Action cards -->
-      <div class="row">
-          <!-- Card 4 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\argylle_ver3_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 5 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\kung_fu_panda_four_ver2_xlg.jpg"class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 6 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\ghostbusters_afterlife_two_xlg.jpg"" class="card-img-top" alt="Action Movie Poster">
-            </div>
-            
-        </div>
-          </div>
-      </div>
-  </div>
-</div>
-    </div>
-</div>
-</div>
 
-<div class="row justify-content-center">
-  <div class="col-md-6">
-    <h2 class="romance-title">Romance</h2>
-      <div class="row">
-        <!-- Card 1 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\idea_of_you_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-      </div>
-      
-        <!-- Card 2 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\players_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-      </div>
-        <!-- Card 3 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\upgraded_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-      </div>
-    <!-- Second row for Action cards -->
-    <div class="row">
-        <!-- Card 4 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\irish_wish_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-      </div>
-        <!-- Card 5 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\musica_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-      </div>
-        <!-- Card 6 -->
-        <div class="col-md-4 mb-3">
-          <div class="card">
-              <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\how_to_date_billy_walsh_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-          </div>
-          
-      </div>
+      <!-- Main Content Section with custom background -->
+      <section id="Recently-added">
+        <div class="container">
+            <!-- Header for Recently Added section -->
+            <header class="section-header">
+                <h2>What's Hot</h2>
+            </header>
+    
+            <!-- Main Content Section with custom background -->
+            <div class="gallery">
+                <div>
+                    <span class="movie-container">
+                        <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\stopmotion_xlg.jpg" alt="Stop Motion">
+                        <h3 class="movie-title">Stop Motion</h3>
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\rebel_moon__part_two_the_scargiver_xlg.jpg" alt="Rebel Moon - Part Two">
+                        <h3 class="movie-title">Rebel Moon - Part Two</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\poolmanHomePage.jpg" alt="Pool Man">
+                        <h3 class="movie-title">Pool Man</h3>
+                        <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Mystery</span> <!-- Badge for Horror--> 
+                    </span>   
+                </div>
+                <div>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\out_of_darkness_xlg.jpg" alt="Out Of Darkness">
+                        <h3 class="movie-title">Out Of Darkness</h3>
+                        <span class="badge badge-secondary genre">Horror</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror--> 
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\lovely_dark_and_deep_ver2_xlg.jpg" alt="Lovely Dark & Deep">
+                        <h3 class="movie-title">Lovely Dark & Deep</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\What's Hot\i_saw_the_tv_glow_xlg.jpg" alt="I Saw The Tv Glow">
+                        <h3 class="movie-title">I Saw The Tv Glow</h3>
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Horror</span> <!-- Badge for Horror--> 
+                    </span>  
+                </div>
+            </div> 
         </div>
-    </div>
-</div>
-</div>
-  </div>
-</div>
-</div>
+    </section>
+    
 
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <h2 class="horror-title">Horror</h2>
-        <div class="row">
-          <!-- Card 1 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\late_night_with_the_devil_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
+    <!-- Main Content Section with custom background -->
+    <section id="Recently-added">
+        <div class="container">
+            <!-- Header for Recently Added section -->
+            <header class="section-header">
+                <h2>Movie Night Favourites</h2>
+            </header>
+    
+            <!-- Main Content Section with custom background -->
+            <div class="gallery">
+                <div>
+                    <span class="movie-container">
+                        <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\harry_potter_and_the_deathly_hallows_part_two_ver2_xlg.jpg" alt="Harry Potter: Hallows"> 
+                        <h3 class="movie-title">Harry Potter: Hallows</h3>
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Family</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Horror--> 
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\justice_league_ver3_xlg.jpg" alt="Justice League">
+                        <h3 class="movie-title">Justic League</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\lego_movie_two_the_second_part_ver2_xlg.jpg" alt="Lego Movie">
+                        <h3 class="movie-title">Lego Movie</h3>
+                        <span class="badge badge-secondary genre">Animation</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                    </span>   
+                </div>
+                <div>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\little_giants_xlg.jpg" alt="Little Giants">
+                        <h3 class="movie-title">Little Giants</h3>
+                        <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Family</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Sport</span> <!-- Badge for Horror-->
+                    </span>
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\man_of_steel_ver2_xlg.jpg" alt="Man Of Steel">
+                        <h3 class="movie-title">Man Of Steel</h3>
+                        <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Sci-Fi</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Adventure</span> <!-- Badge for Horror-->
+                    </span> 
+                    <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Movies\Movie Night Favourites\riverdale_ver3_xlg.jpg" alt="Riverdale">
+                        <h3 class="movie-title">Riverdale</h3>
+                        <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <span class="badge badge-secondary genre">Mystery</span> <!-- Badge for Horror--> 
+                    </span>  
+                </div>
+            </div> 
         </div>
-        
-          <!-- Card 2 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\stopmotion_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 3 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\i_saw_the_tv_glow_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-      <!-- Second row for Action cards -->
-      <div class="row">
-          <!-- Card 4 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\out_of_darkness_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 5 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\first_omen_ver3_xlg.jpg"class="card-img-top" alt="Action Movie Poster">
-            </div>
-        </div>
-          <!-- Card 6 -->
-          <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\lovely_dark_and_deep_ver2_xlg.jpg" class="card-img-top" alt="Action Movie Poster">
-            </div>
-            
-        </div>
-          </div>
-      </div>
-  </div>
-</div>
-    </div>
-</div>
-</div>
+    </section>
+    
 
     <!--Newsletter-->
     <div class="newsletter">
@@ -273,12 +240,5 @@
             <p class="copyright">&copy; 2024 Warner Bros. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>
