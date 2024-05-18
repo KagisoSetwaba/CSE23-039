@@ -4,6 +4,147 @@
 }
 
 
+/* Ensure the search bar has a white background and is styled nicely */
+.navbar .form-inline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .form-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.navbar .btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .main-header {
+      font-size: 1.5em;
+  }
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer-logo {
+      margin-top: 20px;
+  }
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+  .card {
+      margin-bottom: 20px; /* Add space between stacked cards */
+  }
+  .card-body {
+      padding: 15px; /* Ensure sufficient padding for readability */
+  }
+  .card-body p {
+      font-size: 0.9em; /* Adjust text size for better readability */
+  }
+  .card-body h5 {
+      font-size: 1.2em; /* Ensure the card title is appropriately sized */
+  }
+  .btn-primary {
+      width: 100%; /* Make button width 100% on small screens */
+      padding: 10px; /* Adjust padding for better look */
+  }
+
+  .btn-primary {
+    width: calc(50% - 10px); /* Make buttons fill 50% of the container with 10px spacing */
+    margin: 5px; /* Add margin to create space between buttons */
+    padding: 10px; /* Adjust padding for better look */
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+
+  .main-header {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .card-body p {
+    font-size: 0.9em; /* Adjust text size for better readability */
+  }
+
+  .card-body h5 {
+    font-size: 1.2em; /* Ensure the card title is appropriately sized */
+  }
+
+  .btn-primary {
+    width: calc(50% - 10px); /* Make buttons fill 50% of the container with 10px spacing */
+    margin: 5px; /* Add margin to create space between buttons */
+    padding: 10px; /* Adjust padding for better look */
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+
+  .copyright p {
+    text-align: center; /* Center align the copyright text */
+    font-size: 0.8em; /* Adjust font size for smaller screens */
+  }
+  .movie-title {
+    font-size: 0.9em;
+  }
+
+  .genre {
+    font-size: 0.6em;
+  }
+
+  .movie-container img {
+    width: 50%; /* Further reduce image width for even smaller screens */
+  }
+  
+  .btn {
+    font-size: 90%; /* Decrease font size for smaller screens */
+}
+}
+
+
+
+
+
+
+
+.navbar-nav {
+  margin-left: 115px; /* Adding left margin to navbar items */
+}
+
+.button-group{
+  padding-top: 7px;
+  margin-right: 2px;
+}
+
+.btn-margin {
+  margin-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body, html {
 overflow-x: hidden; /* Prevent horizontal scrolling */
 }

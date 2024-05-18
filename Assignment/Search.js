@@ -1,31 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Add an event listener to the form for submitting the search query
+    document.getElementById("searchForm").addEventListener("submit", function(event) {
+        // Prevent the default form submission behavior, which would refresh the page
+        event.preventDefault();
 
-function search() {
-    // Get the search query
-    var input = document.getElementById('searchInput').value.toLowerCase();
-    
-    // Filter the items based on the search query
-    var results = [];
-    // Replace 'items' with your array of movies, shows, apps, and games
-    items.forEach(function(item) {
-        if (item.title.toLowerCase().includes(input)) {
-            results.push(item);
+        // Get the value entered in the search input field
+        var searchQuery = document.getElementById("searchInput").value.trim().toLowerCase();
+
+        // Get the movie container with the matching ID
+        var movieContainer = document.getElementById(searchQuery.replace(/\s+/g, '_'));
+
+        // Check if the movie container exists
+        if (movieContainer) {
+            // Scroll to the section containing the matched movie container
+            movieContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     });
-
-    // Display the search results
-    displayResults(results);
-}
-
-function displayResults(results) {
-    var container = document.getElementById('searchResults');
-    container.innerHTML = '';
-
-    // Display each result
-    results.forEach(function(result) {
-        var itemElement = document.createElement('div');
-        itemElement.innerHTML = '<h3>' + result.title + '</h3>';
-        // Add more details if needed
-        container.appendChild(itemElement);
-    });
-}
-
+});

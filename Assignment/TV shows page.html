@@ -7,30 +7,35 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="movies pages.css">
+    <link rel="stylesheet" href="TV shows page.css">
 </head>
 <body>
+
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Warner Bros.</a>
-            <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Warner_Bros_logo.png" class="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="movies pages.html">Movies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="TV shows page.html">TV Shows</a></li>
-                    <li class="nav-item"><a class="nav-link" href="apps&games.html">Games & Apps</a></li>
-                    <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
-                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Warner Bros.</a>
+        <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\Warner_Bros_logo.png" class="logo" alt="Warner Bros Logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="movies pages.html">Movies</a></li>
+                <li class="nav-item"><a class="nav-link" href="TV shows page.html">TV Shows</a></li>
+                <li class="nav-item"><a class="nav-link" href="apps&games.html">Games & Apps</a></li>
+                <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+                <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+            </ul>
+            <form id="searchForm" class="form-inline my-2 my-lg-0">
+                <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <div class="featured-content">
       <img class="featured-title" src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Background\wallpaperflare-cropped.jpg"alt="">
@@ -63,39 +68,71 @@
                 <span class="movie-container">
                     <img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\house_of_ninjas_xlg.jpg" alt="House Of Ninjas">
                     <h3 class="movie-title">House Of Ninjas</h3>
-                    <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
-                    <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror-->
-                    <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                    <span class="badge badge-secondary genre">Action</span>
+                    <span class="badge badge-secondary genre">Thriller</span>
+                    <span class="badge badge-secondary genre">Drama</span>
+                    <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\ripley_ver2_xlg.jpg" alt="Ripley">
+                               
+                </span>
+                <span id ="Ripley"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\ripley_ver2_xlg.jpg" alt="Ripley">
                     <h3 class="movie-title">Ripley</h3>
                         <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\hundred_code_xlg.jpg" alt="100 Code">
+                <span id ="100 Code"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\hundred_code_xlg.jpg" alt="100 Code">
                     <h3 class="movie-title">100 Code</h3>
                         <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>   
             </div>
             <div>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\stranger_things_ver2_xlg.jpg" alt="Stranger Things">
+                <span id ="Stranger Things"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\stranger_things_ver2_xlg.jpg" alt="Stranger Things">
                     <h3 class="movie-title">Stranger Things</h3>
                         <span class="badge badge-secondary genre">Horror</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\blood_and_water_xlg.jpg" alt="Blood And Water">
+                <span id ="Blood And Water"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\blood_and_water_xlg.jpg" alt="Blood And Water">
                     <h3 class="movie-title">Blood And Water</h3>
                         <span class="badge badge-secondary genre">Mystery</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\doctor_slump_xlg.jpg" alt="Doctor Slump">
+                <span id ="Doctor Slump"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Returning Series\doctor_slump_xlg.jpg" alt="Doctor Slump">
                     <h3 class="movie-title">Doctor Slump</h3>
                         <span class="badge badge-secondary genre">Romance</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>  
             </div>
         </div> 
@@ -122,35 +159,65 @@
                     <span class="badge badge-secondary genre">Horror</span> <!-- Badge for Horror-->
                     <span class="badge badge-secondary genre">Fantasy</span> <!-- Badge for Horror-->
                     <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                    <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\sathu_xlg.jpg" alt="Sathu">
+                <span id ="Sathu"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\sathu_xlg.jpg" alt="Sathu">
                     <h3 class="movie-title">Sathu</h3>
                         <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\peaky_blinders_xlg.jpg" alt="Peaky Blinders">
+                <span id ="Peaky Blinders"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\peaky_blinders_xlg.jpg" alt="Peaky Blinders">
                     <h3 class="movie-title">Peaky Blinders</h3>
                         <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror-->
-                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div> 
                 </span>   
             </div>
             <div>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\jongmalui_babo_xlg.jpg" alt="Goodbye Earth">
+                <span id ="Goodbye Earth"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\jongmalui_babo_xlg.jpg" alt="Goodbye Earth">
                     <h3 class="movie-title">Goodbye Earth</h3>
                         <span class="badge badge-secondary genre">Sci-Fi</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\griselda_ver3_xlg.jpg" alt="Griselda">
+                <span id ="Griselda"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\griselda_ver3_xlg.jpg" alt="Griselda">
                     <h3 class="movie-title">Griselda</h3>
                         <span class="badge badge-secondary genre">Biography</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror-->
-                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div> 
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\fool_me_once_xlg.jpg" alt="Fool Me Once">
+                <span id ="Fool Me Once"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Top Rated\fool_me_once_xlg.jpg" alt="Fool Me Once">
                     <h3 class="movie-title">Fool Me Once</h3>
                         <span class="badge badge-secondary genre">Mystery</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror--> 
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>  
             </div>
         </div> 
@@ -175,38 +242,75 @@
                     <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
                     <span class="badge badge-secondary genre">Thriller</span> <!-- Badge for Horror-->
                     <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                    <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\furies_ver2_xlg.jpg" alt="Furies">
+                <span id ="Furies"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\furies_ver2_xlg.jpg" alt="Furies">
                     <h3 class="movie-title">Furies</h3>
                         <span class="badge badge-secondary genre">Action</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Crime</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\daughters_of_destiny_xlg.jpg" alt="Daughters Of Destiny">
+                <span id ="Daughters Of Destiny"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\daughters_of_destiny_xlg.jpg" alt="Daughters Of Destiny">
                     <h3 class="movie-title">Daughters Of Destiny</h3>
                         <span class="badge badge-secondary genre">Documentary</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>   
             </div>
             <div>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\brothers_sun.jpg" alt="Brothers">
+                <span id ="Brothers"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\brothers_sun.jpg" alt="Brothers">
                     <h3 class="movie-title">Brothers</h3>
                         <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\baxters_ver2_xlg.jpg" alt="The Baxters">
+                <span id ="The Baxters"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\baxters_ver2_xlg.jpg" alt="The Baxters">
                     <h3 class="movie-title">The Baxters</h3>
                         <span class="badge badge-secondary genre">Family</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span> 
-                <span><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\baby_reindeer_xlg.jpg" alt="Baby Reindeer">
+                <span id ="Baby Reindeer"><img src="C:\Users\Administrator\Desktop\WMD\Assignment\Images\TV Shows\Binge Worthy\baby_reindeer_xlg.jpg" alt="Baby Reindeer">
                     <h3 class="movie-title">Baby Reindeer</h3>
                         <span class="badge badge-secondary genre">Biography</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Comedy</span> <!-- Badge for Horror-->
                         <span class="badge badge-secondary genre">Drama</span> <!-- Badge for Horror-->
+                        <br> <!-- Add a line break before the link -->
+                    <div class="button-group">
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Watch Trailer</a>
+                        <a href="https://youtu.be/lW7enw6mFxs" class="btn btn-primary" target="_blank">Buy/Rent</a>
+                    </div>
                 </span>  
             </div>
         </div> 
     </div>
 </section>
+   <!-- Bootstrap JS and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <!-- Custom JavaScript -->
+   <script src="Search.js"></script>
+</body>
 
     <!--Newsletter-->
     <div class="newsletter">
@@ -238,11 +342,5 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
-</body>
+ 
 </html>

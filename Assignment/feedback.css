@@ -1,3 +1,44 @@
+/* Ensure the search bar has a white background and is styled nicely */
+.navbar .form-inline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar .form-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.navbar .btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Adjust spacing and alignment for smaller screens */
+@media (max-width: 767.98px) {
+  .navbar .form-inline {
+      width: 100%;
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .navbar .form-control {
+      width: 80%;
+      margin: 0 auto 10px auto;
+  }
+
+  .navbar .btn-outline-light {
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+
+.navbar-nav {
+  margin-left: 115px; /* Adding left margin to navbar items */
+}
 
     /* Custom styles for feedback form */
       /* Custom styles for feedback form */
