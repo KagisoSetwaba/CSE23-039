@@ -5,10 +5,14 @@
 
  /* Custom CSS to add left margin to the entire search form */
  .navbar .form-inline {
-  padding-right: 90px;
-  padding-left: 50px;
-}
+  padding-right: 90px !important;
+  padding-left: 50px !important;
+} 
 
+/* Custom CSS for padding on the search button */
+.navbar .form-inline .btn {
+  margin-left: 5px !important;
+}
 
 
 
