@@ -4,6 +4,15 @@
   justify-content: flex-end;
 }
 
+/* Custom CSS to add left margin to the entire search form */
+.navbar .form-inline {
+  margin-left: 90px;
+}
+/* Custom CSS for padding on the search button */
+.navbar .form-inline .btn {
+  margin-left: 5px !important;
+}
+
 .navbar .form-control {
   background-color: #fff;
   border: 1px solid #ccc;

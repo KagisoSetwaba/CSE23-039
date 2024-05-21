@@ -3,6 +3,14 @@
   height: auto; /* This will maintain the aspect ratio */
 }
 
+/* Custom CSS to add left margin to the entire search form */
+.navbar .form-inline {
+  margin-left: 90px;
+}
+/* Custom CSS for padding on the search button */
+.navbar .form-inline .btn {
+  margin-left: 5px !important;
+}
 
 /* Ensure the search bar has a white background and is styled nicely */
 .navbar .form-inline {

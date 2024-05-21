@@ -3,7 +3,11 @@
   height: auto; /* This will maintain the aspect ratio */
 }
 
-
+ /* Custom CSS to add left margin to the entire search form */
+ .navbar .form-inline {
+  padding-right: 90px;
+  padding-left: 50px;
+}
 
 
 
