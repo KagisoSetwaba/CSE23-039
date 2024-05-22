@@ -37,6 +37,12 @@
 
 /* Adjust spacing and alignment for smaller screens */
 @media (max-width: 767.98px) {
+  .featured-content {
+    /* Adjust the paragraph to break into multiple lines on smaller screens */
+    white-space: normal;
+    word-wrap: break-word;
+}
+
   .navbar .form-inline {
       width: 100%;
       justify-content: center;
